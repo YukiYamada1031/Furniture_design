@@ -1,3 +1,4 @@
+/*
 $(function () {
   $('toggle-btn').on('click', function () {
     if ($('#header').hasClass('open')) {
@@ -15,3 +16,5 @@ $(function () {
     $('#header').removeClass('open');
   });
 });
+
+*/
