@@ -85,6 +85,15 @@ nav:last-child{
   font-weight: 100;
 }
 
+.flex-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-btn li{
+  margin-right: 40px;
+}
+
 #footer{
   margin-bottom: 15px;
 }
@@ -96,4 +105,48 @@ nav:last-child{
 
 #footer nav li{
   font-size: small;
+}
+
+.section-title{
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.passege{
+  width: 650px;
+  text-align: left;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+dl{
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt{
+  width: 30%;
+  margin-left: 2%;
+  padding-right: 3%;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #c1c1c1;
+}
+
+dd{
+  width: 65%;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #c1c1c1;
+}
+
+dt:last-of-type{
+  border-bottom: none;
+}
+
+dd:last-of-type{
+  border-bottom: none;
 }
