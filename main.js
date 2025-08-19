@@ -1,20 +1,11 @@
-/*
-$(function () {
-  $('toggle-btn').on('click', function () {
-    if ($('#header').hasClass('open')) {
+const header = document.querySelector('#header');
 
-      $('open').removeClass('open');
-
-    } else {
-
-      $('#header').addClass('open');
-
-    }
-  });
-
-  $('.mask').on('click', function () {
-    $('#header').removeClass('open');
-  });
-});
-
-*/
+header.animate(
+  {
+    opacity:[0,1],
+    translate:['100px 0', 0]
+  },
+  {
+    duration:2400
+  }
+);
